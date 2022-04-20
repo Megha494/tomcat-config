@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: webapp
-  name: webapp-deployment
+  name: tomcat-deploy
 spec:
   replicas: 3
   selector:
